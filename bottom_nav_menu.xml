@@ -1,0 +1,10 @@
+<!-- File: app/src/main/res/menu/bottom_nav_menu.xml -->
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/nav_home" android:title="@string/home"
+        android:icon="@drawable/ic_home"/>
+    <item android:id="@+id/nav_cart" android:title="@string/cart"
+        android:icon="@drawable/ic_cart"/>
+    <item android:id="@+id/nav_support" android:title="@string/support"
+        android:icon="@drawable/ic_ticket"/>
+</menu>

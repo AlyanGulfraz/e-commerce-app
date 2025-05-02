@@ -1,0 +1,4 @@
+<adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">
+  <background android:drawable="@color/primary_start"/>
+  <foreground android:drawable="@drawable/fw_logo"/>
+</adaptive-icon>

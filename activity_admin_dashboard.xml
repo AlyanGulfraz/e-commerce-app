@@ -1,0 +1,25 @@
+<!-- File: app/src/main/res/layout/activity_admin_dashboard.xml -->
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="8dp" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView android:text="@string/admin_dashboard" android:textSize="20sp"
+            android:layout_marginBottom="8dp" android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView android:text="@string/pending_vendor_applications"
+            android:textStyle="bold" android:layout_marginTop="8dp" android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerVendorApps"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"/>
+        <TextView android:text="@string/sale_requests"
+            android:textStyle="bold" android:layout_marginTop="8dp" android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerSaleRequests"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"/>
+    </LinearLayout>
+</ScrollView>
