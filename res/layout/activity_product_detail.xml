@@ -1,0 +1,28 @@
+<!-- File: app/src/main/res/layout/activity_product_detail.xml -->
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="16dp"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView android:id="@+id/productImage"
+            android:layout_width="match_parent" android:layout_height="200dp"
+            android:scaleType="centerCrop"/>
+        <TextView android:id="@+id/productName" android:textSize="20sp"
+            android:layout_marginTop="8dp" android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView android:id="@+id/productPrice" android:textSize="16sp"
+            android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <TextView android:id="@+id/productDesc" android:textSize="14sp"
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent" android:layout_height="wrap_content"/>
+
+        <Button android:id="@+id/btnAddToCart" android:text="@string/add_to_cart"
+            android:layout_marginTop="16dp"
+            android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <Button android:id="@+id/btnRequestSale" android:text="@string/request_sale"
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    </LinearLayout>
+</ScrollView>
